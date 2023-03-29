@@ -1,0 +1,44 @@
+.root {
+    -fx-background-color: radial-gradient(center 50% 114%, radius 50%, blue, black);
+    -fx-background-repeat: repeat, no-repeat;
+    -fx-background-position: left top, left 19px top 15px;
+    -fx-padding: 10;
+    -fx-font-family: "SansSerif";
+}
+
+HBox {
+    -fx-background-color: transparent;
+    -fx-spacing: 10;
+    -fx-alignment: top-right;
+}
+
+VBox {
+    -fx-background-color: transparent;
+    -fx-alignment: center;
+}
+
+.label {
+    -fx-font-size: 32;
+    -fx-font-weight: Bold;
+    -fx-text-fill: yellow;
+    -fx-effect: dropshadow(three-pass-box, yellow, 3, 0, 0, 0);
+
+}
+
+.label .text {
+    -fx-strikethrough: false;
+}
+
+.button {
+    -fx-background-color: transparent;
+}
+
+#date {
+    -fx-font-size: 16;
+}
+
+#icon {
+    -fx-fill: grey;
+    -fx-font-size: 16;
+}
+
